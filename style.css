@@ -1,0 +1,22 @@
+h1{
+    background-color: yellowgreen;
+    font-size: 60px;
+    word-spacing: 50px;
+    letter-spacing: 10px;
+}
+p{
+    border: 3px dashed green; /*width style color */
+    /* border-width: 2px ;
+    border-style: solid;
+    border-color: green; */
+    font-size: 50px;
+    padding: 10px;
+    margin: 40px;
+    /* border-radius: 50%;
+    height: 50px;
+    width: 50px; */
+    margin-left: 50%;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+}
