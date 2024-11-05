@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.anchor{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+#maindiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#maindiv .box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
