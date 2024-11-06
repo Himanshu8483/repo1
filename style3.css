@@ -1,3 +1,4 @@
+/* For no extra space */
 *{
     margin: 0px;
     padding: 0px;
@@ -5,26 +6,24 @@
 
 .navbar{
     margin-left: 50px;
-    list-style: none;
+    list-style: none; /*for remove ul cirle*/
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.anchor{
-    text-decoration: none;
-}
-
 a{
     text-decoration: none;
 }
+
 .navbar li a{
-    text-decoration: none;
-    color: black;
+    text-decoration:none;
+    border-bottom: 2px dotted blue;
+    color: red;
 }
 
 #maindiv{
-    display: flex;
+    display: flex; /* in one line*/
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -33,4 +32,14 @@ a{
     width: 200px;
     height: 200px;
     border: 1px solid black;
+} 
+#box1 {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-left: 40%;
+    background-color: rgba(255,0, 255,0.2);
+    opacity: 30%;
 }
