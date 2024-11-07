@@ -19,7 +19,8 @@ a{
 .navbar li a{
     text-decoration:none;
     border-bottom: 2px dotted blue;
-    color: red;
+    color: black;
+    text-shadow: 5px 5px 5px grey;
 }
 
 #maindiv{
@@ -42,4 +43,5 @@ a{
     margin-left: 40%;
     background-color: rgba(255,0, 255,0.2);
     opacity: 30%;
+    box-shadow: 5px 20px 0px gray; /*Horizontal vertical blur spread color */
 }
