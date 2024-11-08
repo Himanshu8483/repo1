@@ -20,7 +20,7 @@
 
 #navbar nav ul{
     display: flex;
-    gap: 50px;
+    gap: 100px;
     list-style: none;
 }
 
@@ -35,4 +35,25 @@
     color: white;
     padding: 10px;
     border-radius: 10px; /*shape*/
+}
+
+
+/* Home section CSS */
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    background-image: url('image/Aeroplane.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#home p {
+    color:white;
+    text-align: center;
+    /* padding-top: 10%; */
+    background-color: red;
+    /* margin-left: 50%; */
 }
