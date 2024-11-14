@@ -1,0 +1,84 @@
+/* transform */
+
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transition: all 2s ease-in 1s;
+    transform: rotate(90deg);
+
+}
+
+#div1:hover {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    transform: scale(2);
+    /* transform: translateY(-200px); */
+    transform: translate(100px, 80px);
+    transform: skew(45deg);
+}
+
+#div1 :active {
+    background-color: pink;
+}
+
+/* Animation Property */
+#div2 {
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+    background-color: pink;
+    border: 2px solid black;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    /* animation-name: colorAnimate;
+    animation-duration: 0.25s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorAnimate 2s ease-in 0s infinite alternate;
+}
+
+@keyframes colorAnimate {
+    /* from {background-color: aquamarine;}
+    to {background-color: red;}
+    from {left: 0px; background-color: red;}
+    to {left: 200px; background-color: green;} */
+
+    0% {left: 0px; background-color: red;}
+    50% {background-color: yellow;}
+    100% {left: 200px; background-color: green;}
+}
+
+
+/* Practice Set 8 */
+#loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #FFE66D;
+    border-top: 20px solid #4ECDC4;
+    animation: spinAnimate 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
