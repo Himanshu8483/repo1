@@ -1,0 +1,70 @@
+.text {
+    width: 80%;
+    border: 1px solid black;
+    background-color: coral;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+#text span {
+    font-size: 40px;
+    float: right;
+    margin-top: -20px;
+}
+
+#show {
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked~#show {
+    display: block;
+}
+
+@media (max-width:450px){
+    #tophead{
+        background-color: red;
+    }
+    #tophead div span {
+        display: none;
+    }
+
+    #navbar nav ul {
+        display: none;
+        /* transform: translateX(0px); */
+        height: 0px;
+        overflow: hidden;
+        position: absolute;
+        top: 12%;
+        left: 35%;
+        background-color: blanchedalmond;
+        width: 200px;
+        text-align: center;
+        line-height: 40px;
+        transition: width 3s ease;
+    }
+}
+
+#bars {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    font-size: 40px;
+}
+
+#checker:checked~#navbar nav ul {
+    display: block;
+    width: 200px;
+    /* transform: translateZ(100px); */
+    box-shadow: 5px 5px 5px gray;
+    height: 200px;
+    background-color: brown;
+}
+
+#checker:checked~#text {
+    margin-top: 200px;
+}
+}
