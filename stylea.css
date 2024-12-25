@@ -5,13 +5,12 @@
     margin-left: 10%;
     padding: 10px;
 }
-
+//
 #text span {
     font-size: 40px;
     float: right;
     margin-top: -20px;
 }
-
 #show {
     display: none;
 }
@@ -20,7 +19,7 @@
     display: none;
 }
 
-#check:checked~#show {
+#check:checked~#show{
     display: block;
 }
 
